@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message Money {
+
+    string currencyCode = 1;
+    int32 amountInt = 2;
+    float amountFloat = 3;
+
+}
