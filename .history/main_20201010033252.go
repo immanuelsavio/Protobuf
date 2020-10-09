@@ -4,5 +4,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("GO code generation")
+	fmt.Println("Hello World")
 }
