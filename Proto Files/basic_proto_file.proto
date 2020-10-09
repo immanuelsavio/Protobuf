@@ -29,4 +29,30 @@ message Person {
     // it's an enum as defined above
     EyeColour eye_colour = 8;
 
+    Date birthday = 9;
+
+    message Address {
+    
+        string address_line_1 = 1;
+        string address_line_2 = 2;
+        string zip_code = 3;
+        string city = 4;
+        string country = 5;
+    
+    }
+
+    repeated Address address = 10;
+}
+
+
+message Date {
+    //Year in int
+    int32 Year = 1;
+
+    //Month in int
+    
+    int32 Month = 2;
+    //Day in int
+    
+    int32 Day = 3;
 }
