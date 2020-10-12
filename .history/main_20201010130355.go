@@ -1,7 +1,9 @@
 //Test File - Will update with gRPC code
 package main
 
-import "Protobuf/src/simple"
+import{
+	"Protobuf/src/simple"
+}
 
 func main() {
 	doSimple()
