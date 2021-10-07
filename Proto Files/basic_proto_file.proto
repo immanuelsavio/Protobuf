@@ -23,7 +23,7 @@ message Person {
         UNKNOWN_EYE_COLOUR = 0;
         EYE_GREEN = 1;
         EYE_BROWN = 2;
-        EYE_BLUE = 3;
+        EYE_BLUE = 3; 
     }
 
     // it's an enum as defined above

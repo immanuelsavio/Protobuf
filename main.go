@@ -1,13 +1,13 @@
 //Test File - Will update with gRPC code
 package main
-
-import "Protobuf/src/simple"
+import "fmt"
+import "github.com/immanuelsavio/Protobuf/src/simple"
 
 func main() {
 	doSimple()
-	example_simple.SimpleMessage
 }
 
 func doSimple() {
-
+	fmt.Println("Hello World")
+	sm:= example_simple.SimpleMessage
 }
